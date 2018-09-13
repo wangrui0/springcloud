@@ -26,6 +26,9 @@ eureka:
     metadata-map:
       zone: ABC    #eureka可以理解的元数据
       wangrui: BBC #不会影响客户端行为
+    lease-renewal-interval-in-seconds: 5
+    #appname:  microservice-provider-user #填坑，一般不会去使用的
+    #hostname: user #指定该服务的主机名是什么，可以通过http://user:7901/访问偶，此时需要将instance-id，prefer-ip-address注释哦
 logging:
   level:
     root: INFO
