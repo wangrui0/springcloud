@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: microservice-consumer-movie-feign-customizing
+server:
+  port: 7900
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://localhost:8761/eureka
+      defaultZone: http://user:password123@localhost:8761/eureka
+logging:
+  level:
+    com.itmuch.cloud.microserviceconsumermovie.feign.UserFeignClient: DEBUG
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}

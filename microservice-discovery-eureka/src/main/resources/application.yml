@@ -1,0 +1,17 @@
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: password123
+server:
+  port: 8761 #eureka的默认的端口
+eureka:
+  client:
+    healthcheck:
+        enabled: true
+    register-with-eureka: false #不要把它当成一个eureka client ，因为是单机。不需要高可用的同步
+    fetch-registry: false #不要把它当成一个eureka client ，因为是单机。不需要高可用的同步
+    service-url:
+      #defaultZone: http://localhost:8761/eureka #将eureka 注册到的地方
+      defaultZone: http://user:password123@localhost:8761/eureka
