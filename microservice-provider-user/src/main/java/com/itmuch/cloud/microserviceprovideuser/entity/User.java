@@ -23,6 +23,9 @@ public class User {
     @Column
     private BigDecimal balance;
 
+    public User() {
+    }
+
     public User(Long id, String username) {
         this.username = username;
         this.id = id;

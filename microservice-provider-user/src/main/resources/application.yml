@@ -16,9 +16,9 @@ eureka:
   client:
     serviceUrl:
       #defaultZone: http://localhost:8761/eureka
-      #defaultZone: http://user:password123@localhost:8761/eureka
+      defaultZone: http://user:password123@localhost:8761/eureka
       #应该多注册几个节点，否则注册的节点万一当掉了，咋弄呢
-      defaultZone: http://peer1:8761/eureka,http://peer1:8762/eureka,http://peer1:8763/eureka
+      #defaultZone: http://peer1:8761/eureka,http://peer1:8762/eureka,http://peer1:8763/eureka
   instance:
     prefer-ip-address: true
     instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
