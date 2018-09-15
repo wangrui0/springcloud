@@ -1,33 +1,20 @@
-package com.itmuch.cloud.microserviceprovideuser.entity;
+package com.itmuch.cloud.microserviceconsumermovie.entity;
 
 /**
  * spring data jpa 需要添加一些，jpa的注解
  */
-import javax.persistence.*;
 import java.math.BigDecimal;
-@Entity
+
 public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column
     private String username;
 
-    @Column
     private String name;
 
-    @Column
     private Short age;
 
-    @Column
     private BigDecimal balance;
-
-    public User(Long id, String username) {
-        this.username = username;
-        this.id = id;
-    }
-
 
     public Long getId() {
         return this.id;

@@ -10,6 +10,7 @@
         <module name="microservice-consumer-movie-feign" />
         <module name="microservice-consumer-movie-feign-customizing" />
         <module name="microservice-consumer-movie-ribbon" />
+        <module name="microservice-consumer-movie-ribbon-test" />
         <module name="microservice-consumer-movie-ribbon-without-eureka" />
         <module name="microservice-discovery-eureka" />
         <module name="microservice-discovery-eureka-ha" />
@@ -22,6 +23,7 @@
       <module name="microservice-consumer-movie-feign" target="1.8" />
       <module name="microservice-consumer-movie-feign-customizing" target="1.8" />
       <module name="microservice-consumer-movie-ribbon" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-test" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-without-eureka" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />

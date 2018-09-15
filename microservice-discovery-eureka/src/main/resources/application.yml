@@ -7,6 +7,8 @@ security:
 server:
   port: 8761 #eureka的默认的端口
 eureka:
+  #environment: env  Eureka Environment的配置
+  #datacenter: cloud Eureka DataCenter的配置
   client:
     healthcheck:
         enabled: true
