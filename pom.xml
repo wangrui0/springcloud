@@ -23,6 +23,9 @@
         <module>microservice-consumer-movie-feign-customizing</module>
         <module>microservice-consumer-movie-ribbon-without-eureka</module>
         <module>microservice-consumer-movie-feign</module>
+		<module>microservice-consumer-movie-feign-customizing-without-hystrix</module>
+		<module>microservice-consumer-movie-feign-with-hystrix-hystrix-factory</module>
+
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
