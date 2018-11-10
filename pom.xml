@@ -12,6 +12,8 @@
         <module>microservice-consumer-movie-ribbon</module>
         <module>microservice-provider-user-ribbon</module>
         <module>microservice-consumer-movie-ribbon-with-hystrix</module>
+        <module>microservice-consumer-movie-ribbon-with-hystrix2</module>
+        <module>microservice-consumer-movie-ribbon-with-hystrix3</module>
         <module>microservice-consumer-movie-ribbon-with-hystrix-propagation</module>
         <module>microservice-consumer-movie-ribbon-test</module>
         <module>microservice-consumer-movie</module>
