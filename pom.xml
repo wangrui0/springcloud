@@ -36,6 +36,7 @@
         <module>microservice-gateway-zuul-fallback</module>
         <module>microservice-gateway-zuul-reg-exp</module>
         <module>microservice-file-upload</module>
+        <module>microservice-sidecar</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
